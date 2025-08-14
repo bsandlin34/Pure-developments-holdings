@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="utf-8" /&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</p>
+<p class="p1">&lt;title&gt;Pure Ventures — Where Vision Meets Value&lt;/title&gt;</p>
+<p class="p1">&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>:root{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--green:#0E3B28;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--gold:#C6A664;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--ink:#1f2937;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--paper:#ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>--warm:#f6f5f2;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>*{box-sizing:border-box}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>html,body{margin:0;padding:0;font-family:Lato,system-ui,Arial,sans-serif;color:var(--ink);background:var(--paper);scroll-behavior:smooth}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>a{color:inherit;text-decoration:none}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>img{max-width:100%;display:block}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.wrap{max-width:1200px;margin:0 auto;padding:0 24px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #e7e5e4;z-index:50}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 0}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.nav-links{display:flex;gap:22px;align-items:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn{display:inline-block;padding:12px 18px;border-radius:999px;font-weight:700;border:2px solid transparent;transition:.2s ease}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-primary{background:var(--green);color:var(--paper)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-primary:hover{opacity:.9}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-outline{border-color:var(--green);color:var(--green);background:transparent}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.btn-outline:hover{background:var(--green);color:var(--paper)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero{position:relative;min-height:78vh;display:grid;place-items:center;overflow:hidden}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero::before{content:"";position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1507034589631-9433cc6bc453?q=80&amp;w=2000&amp;auto=format&amp;fit=crop') center/cover no-repeat;opacity:.22}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom, rgba(255,255,255,.0), rgba(255,255,255,1) 70%)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-inner{position:relative;z-index:1;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.eyebrow{letter-spacing:.18em;color:var(--green);text-transform:uppercase;font-weight:700;font-size:.85rem}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h1{font-family:"Playfair Display",serif;font-size:clamp(34px,5vw,64px);line-height:1.08;margin:10px 0;color:var(--green)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.sub{max-width:780px;color:#4b5563;font-size:1.05rem;margin:0 auto}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.hero-ctas{display:flex;gap:14px;margin-top:20px;flex-wrap:wrap;justify-content:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>section{padding:72px 0}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-title{font-family:"Playfair Display",serif;font-size:clamp(26px,3.2vw,40px);color:var(--green);margin:0 0 10px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.section-kicker{color:#6b7280;margin-bottom:26px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.split{display:grid;grid-template-columns:1.1fr 1fr;gap:36px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card{background:var(--paper);border:1px solid #e7e5e4;border-radius:18px;box-shadow:0 4px 16px rgba(0,0,0,.04);overflow:hidden}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card-pad{padding:28px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.list-check{list-style:none;padding:0;margin:0;display:grid;gap:10px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.list-check li::before{content:"✓";color:var(--gold);margin-right:10px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.band{background:var(--green);color:#e8f0ec}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.band h2,.band .section-title{color:#fff}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.metric{padding:22px;border-left:1px solid rgba(255,255,255,.12)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.metric:first-child{border-left:none}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.big{font-family:"Playfair Display",serif;color:var(--gold);font-size:clamp(26px,3.5vw,40px)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.muted{opacity:.8}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tile{grid-column:span 6;background:var(--paper);border:1px solid #ecebea;border-radius:16px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.05)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tile img{height:220px;object-fit:cover}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.tile .tile-body{padding:16px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.pill{display:inline-block;border:1px solid var(--green);color:var(--green);padding:6px 10px;border-radius:999px;font-size:.78rem;margin-bottom:8px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.cols-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.icon{width:36px;height:36px;border-radius:8px;background:rgba(198,166,100,.18);display:grid;place-items:center;color:var(--green);font-weight:900}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lead{background:linear-gradient(135deg, #ffffff 0%, #f6f5f2 100%);border:1px solid #ecebea;border-radius:18px;padding:28px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lead form{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lead input,.lead select,.lead textarea{grid-column:span 6;padding:12px 14px;border:1px solid #d6d3d1;border-radius:10px;font-size:1rem;background:#fff}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lead textarea{grid-column:span 12;min-height:110px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.lead .submit{grid-column:span 12;justify-self:start}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.note{font-size:.85rem;color:#6b7280}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>footer{background:var(--green);color:#c7d2cf;padding:40px 0;margin-top:40px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:18px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.foot a{color:#e8f0ec}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.copy{border-top:1px solid rgba(255,255,255,.14);margin-top:14px;padding-top:14px;color:#a7b6b2}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>@media (max-width:900px){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.split{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.metrics{grid-template-columns:repeat(2,1fr)}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.tile{grid-column:span 12}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.cols-3{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lead form{grid-template-columns:1fr}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.lead input,.lead select,.lead textarea{grid-column:span 1}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap nav"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="display:flex;align-items:center;gap:12px"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;svg width="42" height="42" viewBox="0 0 64 64" aria-label="Pure Ventures logo" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;defs&gt;&lt;linearGradient id="g" x1="0" y1="0" x2="1" y2="1"&gt;&lt;stop offset="0" stop-color="#C6A664"/&gt;&lt;stop offset="1" stop-color="#C6A664"/&gt;&lt;/linearGradient&gt;&lt;/defs&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;path d="M8 36 L26 24 L42 36 L52 36 L26 16 L8 28 Z" fill="#ffffff" stroke="#0E3B28" stroke-width="2"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;path d="M12 22 A22 22 0 0 1 54 38" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;text x="27" y="46" font-family='Lato, Arial' font-size="16" font-weight="900" fill="#0E3B28"&gt;P&lt;/text&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div style="font-weight:900;color:var(--green);letter-spacing:.06em"&gt;PURE VENTURES&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div style="font-size:.72rem;color:#6b7280;margin-top:2px"&gt;Where Vision Meets Value&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;nav class="nav-links"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#about"&gt;About&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#portfolio"&gt;Portfolio&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#approach"&gt;Approach&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#invest"&gt;Invest&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#contact" class="btn btn-outline"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="hero"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap hero-inner"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="eyebrow"&gt;Real Estate Development &amp; Acquisitions&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Where Vision Meets Value&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="sub"&gt;Pure Ventures delivers high‑quality development and value‑add acquisitions with the precision of a perfectly struck shot—focused execution, disciplined underwriting, and long‑term partnerships.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="hero-ctas"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#invest" class="btn btn-primary"&gt;Join Our Investor Network&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#portfolio" class="btn btn-outline"&gt;View Our Track Record&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="about"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap split"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card"&gt;&lt;img src="https://images.unsplash.com/photo-1535446931-9e3c8f4f7a28?q=80&amp;w=1800&amp;auto=format&amp;fit=crop" alt="Development planning" loading="lazy"/&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="card card-pad"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="section-title"&gt;Inspired by Precision. Driven by Results.&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="section-kicker"&gt;Our name reflects the clarity and confidence we bring to each investment decision.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;We acquire and develop properties in growth corridors with resilient demand. Our team combines on‑the‑ground experience with institutional discipline to protect downside and compound value.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul class="list-check" style="margin-top:14px"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;Ground‑up residential &amp; mixed‑use&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;Value‑add repositioning&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;li&gt;Joint ventures with landowners &amp; builders&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section class="band"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="section-title"&gt;Proven Results in Real Estate&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="metrics"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="metric"&gt;&lt;div class="big"&gt;$150M+&lt;/div&gt;&lt;div class="muted"&gt;Total Project Value&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="metric"&gt;&lt;div class="big"&gt;500+&lt;/div&gt;&lt;div class="muted"&gt;Residential Units Delivered&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="metric"&gt;&lt;div class="big"&gt;8.4%&lt;/div&gt;&lt;div class="muted"&gt;Average Annualized Returns&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="metric"&gt;&lt;div class="big"&gt;15+ Years&lt;/div&gt;&lt;div class="muted"&gt;Combined Experience&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="portfolio"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="section-title"&gt;Featured Portfolio&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="section-kicker"&gt;Selected projects demonstrating our focus on execution, design, and durable value.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="tile"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Urban Mixed-Use" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tile-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="pill"&gt;Mixed‑Use&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 style="margin:6px 0 6px;color:var(--green);font-family:'Playfair Display',serif"&gt;Crescent District&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="section-kicker"&gt;122 units • Retail podium • Stabilized&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="tile"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Luxury Residential" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tile-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="pill"&gt;Residential&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 style="margin:6px 0 6px;color:var(--green);font-family:'Playfair Display',serif"&gt;Oakmere Estates&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="section-kicker"&gt;48 single‑family • Phase II&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="tile"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1529429612778-b0e0bf3a8293?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Adaptive reuse" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tile-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="pill"&gt;Adaptive Reuse&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 style="margin:6px 0 6px;color:var(--green);font-family:'Playfair Display',serif"&gt;Foundry Lofts&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="section-kicker"&gt;Historic mill → 72 lofts&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="tile"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="https://images.unsplash.com/photo-1592782314343-37a012d9f08e?q=80&amp;w=1600&amp;auto=format&amp;fit=crop" alt="Land development" loading="lazy"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="tile-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="pill"&gt;Land Dev&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 style="margin:6px 0 6px;color:var(--green);font-family:'Playfair Display',serif"&gt;Horizon Park&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="section-kicker"&gt;112 acres • Multi‑phase&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="approach" class="band" style="background:linear-gradient(180deg,var(--green) 0%, #0b3323 100%)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="section-title" style="color:#fff"&gt;Investment Approach&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="cols-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card card-pad" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.1)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="icon"&gt;⚡&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 style="margin:10px 0;color:#fff"&gt;Speed&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="muted"&gt;Agile underwriting and decisive execution to secure opportunities ahead of the market.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card card-pad" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.1)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="icon"&gt;🤝&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 style="margin:10px 0;color:#fff"&gt;Partnership&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="muted"&gt;Transparent structures and aligned incentives with investors, lenders, and builders.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card card-pad" style="background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.1)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="icon"&gt;🛡️&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3 style="margin:10px 0;color:#fff"&gt;Confidence&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="muted"&gt;Risk‑managed strategies focused on durable cash flows and long‑term value.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="invest"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="lead"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="section-title"&gt;Join Our Investor Network&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="section-kicker"&gt;Early access to new offerings, updates, and investor events.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="text" placeholder="Full name" aria-label="Full name" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="email" placeholder="Email address" aria-label="Email" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="tel" placeholder="Phone (optional)" aria-label="Phone" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;select aria-label="Accredited?"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option value=""&gt;Accredited investor?&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;Yes&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;option&gt;No&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;textarea placeholder="Interests or questions"&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="submit"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a class="btn btn-primary" href="#contact" style="background:var(--gold);color:#111;border-color:var(--gold)"&gt;Request Access&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="note" style="margin-top:8px"&gt;We respect your privacy. Information is never shared.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="contact" class="band" style="background:var(--warm);color:var(--ink)"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="wrap" style="display:grid;grid-template-columns:1.2fr 1fr;gap:22px"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="section-title" style="color:var(--green)"&gt;Let’s Build Something Enduring&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="section-kicker"&gt;Email &lt;a href="mailto:invest@pureventures.com"</p>
+</body>
+</html>
